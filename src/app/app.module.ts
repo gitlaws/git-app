@@ -5,9 +5,7 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
-  declarations: [
-    AppComponent, FooterComponent
-  ],
+  declarations: [AppComponent, FooterComponent],
   imports: [
     BrowserModule
   ],
