@@ -1,23 +1,60 @@
 $background-color: #252525;
-$color: red;
+$color: azure;
 
 footer {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
-    justify-content: end;
+    justify-content: start;
     grid-gap: 20px;
     background-color: $background-color;
     color: $color;
-    padding: 0 20px;
+    padding: 80px 0;
+    background-size: 30%;
+    
     
     #social-media {
         display: grid;
         grid-gap: 10px;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
+        
+        
         
         a {
             display: inline-block;
+            color: azure;
+            font-size: 2em;
+            
         }
+        
+        .fa-facebook:hover {
+            color: #3B5998;
+        }
+        
+        .fa-linkedin:hover {
+            color: #0A66C2;
+        }
+        
+        .fa-github:hover {
+            color: #999999;
+        }
+        
+        .fa-discord:hover {
+            color: #7289DA;
+        }
+
+
+    }//end-social-media
+    
+
+    .cr-year {
+        font-size: 1.0em;
+        // padding-right: 20px;
+        margin: 0px 0px 0px 20px;
+        
+        
     }
-}
+
+
+
+}//end-footer
